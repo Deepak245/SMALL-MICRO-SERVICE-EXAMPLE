@@ -49,7 +49,7 @@ app.post("/events", (req, res) => {
   // console.log(posts);
   res.send({});
 });
-
+//this is like safing
 app.listen(4002, async () => {
   console.log("listening to port 4002");
   // once our event query service comes online and listening to port 4002, it is probably be the right time to make a
